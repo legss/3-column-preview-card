@@ -1,4 +1,4 @@
-# Treinamento - 3-column-preview-card-component - Dia 4
+# Treinamento - 3 column preview card - Dia 4
 
 Este mini-projeto, faz parte do meu treinamento para aprender os fundamentos para ser desenvolvedor Front-end. Para realizar esse treinamento, estou utilizando os desafios disponibilizados no [Front-end Mentor](https://www.frontendmentor.io/).
 

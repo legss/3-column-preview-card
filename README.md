@@ -19,7 +19,7 @@ Este mini-projeto, faz parte do meu treinamento para aprender os fundamentos par
 
 ### O desafio
 
-Este projeto é resultado do [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de Front-end, com a construção de mini projetos reais.
+Este projeto é resultado do [3 column preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Os desafios do Frontend Mentor te ajudam a aprimorar suas habilidades de Front-end, com a construção de mini projetos reais.
 
 ### Screenshot
 

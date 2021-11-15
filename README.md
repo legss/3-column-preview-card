@@ -27,7 +27,7 @@ Este projeto é resultado do [Profile card component challenge on Frontend Mento
 
 ### Live Site
 
-Caso quiser ver como ficou o mini-projeto, eu postei [aqui](#https://legss.github.io/3-column-preview-card/)
+Caso quiser ver como ficou o mini-projeto, eu postei [aqui](https://legss.github.io/3-column-preview-card)
 
 ## Processo de criação
 

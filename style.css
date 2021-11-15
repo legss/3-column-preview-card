@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(179, 100%, 13%);
+  font-size: 15px;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5em;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.9em;
+}
+
+.conteiner {
+  background-color: hsl(0, 0%, 95%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Corpo do cartão todo */
+
+.full-card {
+  display: flex;
+  width: 927px;
+  height: 507px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Cartão esquerdo */
+
+.left-card {
+  background-color: hsl(31, 77%, 52%);
+  width: 312px;
+}
+
+.icon-sedans {
+  margin-top: 50px;
+  margin-left: 45px;
+}
+
+.middle-sedans {
+  margin-top: 28px;
+  margin-left: 45px;
+}
+
+.description-sedans {
+  margin-top: 30px;
+  margin-right: 55px;
+}
+
+.bottom-sedans {
+  margin-top: 76px;
+  margin-left: 45px;
+}
+
+.button-sedans {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  color: hsl(31, 77%, 52%);
+  font-size: 15px;
+  padding: 15px 26px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* Cartão do meio */
+
+.middle-card {
+  width: 312px;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.icon-suvs {
+  margin-top: 50px;
+  margin-left: 45px;
+}
+
+.middle-suvs {
+  margin-top: 28px;
+  margin-left: 45px;
+}
+
+.description-suvs {
+  margin-top: 30px;
+  margin-right: 55px;
+}
+
+.bottom-suvs {
+  margin-top: 76px;
+  margin-left: 45px;
+}
+
+.button-suvs {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  color: hsl(184, 100%, 22%);
+  font-size: 15px;
+  padding: 15px 26px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* Cartão da direita */
+
+.right-card {
+  width: 312px;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.icon-luxury {
+  margin-top: 50px;
+  margin-left: 45px;
+}
+
+.middle-luxury {
+  margin-top: 28px;
+  margin-left: 45px;
+}
+
+.description-luxury {
+  margin-top: 30px;
+  margin-right: 55px;
+}
+
+.bottom-luxury {
+  margin-top: 76px;
+  margin-left: 45px;
+}
+
+.button-luxury {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  color: hsl(179, 100%, 13%);
+  font-size: 15px;
+  padding: 15px 26px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 375px) {
+  .conteiner {
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 210vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .full-card {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 1440px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .left-card {
+    background-color: hsl(31, 77%, 52%);
+    height: 480px;
+  }
+
+  .middle-card {
+    height: 480px;
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  .right-card {
+    height: 480px;
+    background-color: hsl(179, 100%, 13%);
+  }
+
+  .bottom-sedans {
+    margin-top: 45px;
+    margin-left: 45px;
+  }
+
+  .bottom-suvs {
+    margin-top: 45px;
+    margin-left: 45px;
+  }
+
+  .bottom-luxury {
+    margin-top: 45px;
+    margin-left: 45px;
+  }
+}
